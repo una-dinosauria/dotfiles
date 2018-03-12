@@ -127,7 +127,7 @@ if has("gui_running")
    set guifont=Terminus\ 9
 else
    syntax on
-   g:solarized_termcolor=256
+   " let g:solarized_termcolor=256
    set t_Co=256
    set background=dark
    colorscheme solarized
