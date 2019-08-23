@@ -1,0 +1,15 @@
+{
+  "username": "root",
+  "protocol": "sftp",
+  "privateKeyPath": "/home/julieta/.ssh/id_rsa",
+  "context": "/home/julieta/Desktop/av/source/experimental/toronto/python/",
+  "uploadOnSave": true,
+  "profiles": {
+    "wbu": {
+        "host": "opusgpu104-wbu2",
+        "port": 31017,
+        "remotePath": "/av/python/av/experimental/toronto/"
+    }
+  },
+  "defaultProfile": "wbu"
+}
