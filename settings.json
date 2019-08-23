@@ -1,0 +1,62 @@
+{
+    "workbench.colorTheme": "One Dark Pro Bold",
+    // point to av's python interpreter
+    "python.pythonPath": "/home/julieta/Desktop/av/bin/python",
+    // show a ruler at 120 characters
+    "editor.rulers": [
+        120
+    ],
+    // we seem to use flake8 from arc lint
+    "python.linting.pylintEnabled": false,  // pylint raises a lot of false alarms with pytorch: https://github.com/microsoft/vscode-python/issues/5635
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=120",
+    ],
+    "editor.fontSize": 12,
+    "editor.lineHeight": 15,
+
+    // "sftp.debug": true,
+
+    // Nice vim stuff
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+        "before": ["j", "j"],
+        "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+        },
+        {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+        // }
+        },
+        {
+        "before": [":"],
+        "after": [";"]
+        },
+        {
+        "before": [";"],
+        "after": [":"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "autoDocstring.docstringFormat": "sphinx",
+    "autoDocstring.customTemplatePath": "/home/julieta/.vscode/extensions/njpwerner.autodocstring-0.3.0/out/docstring/templates/sphinx_custom.mustache",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "workbench.iconTheme": "vscode-icons",
+    "latex-workshop.view.pdf.ref.viewer": "tabOrBrowser"
+}
