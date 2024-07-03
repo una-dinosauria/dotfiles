@@ -59,6 +59,8 @@
     "latex-workshop.view.pdf.viewer": "tab",
     "workbench.iconTheme": "vscode-icons",
     "latex-workshop.view.pdf.ref.viewer": "tabOrBrowser",
+    // Lets you select things on tmux with the mouse while holding down alt
     "terminal.integrated.macOptionClickForcesSelection": true,
+    // Font for p10k
     "terminal.integrated.fontFamily": "MesloLGS NF",
 }
