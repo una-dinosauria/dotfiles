@@ -59,5 +59,6 @@
     "latex-workshop.view.pdf.viewer": "tab",
     "workbench.iconTheme": "vscode-icons",
     "latex-workshop.view.pdf.ref.viewer": "tabOrBrowser",
-    "terminal.integrated.fontFamily": "MesloLGS NF"
+    "terminal.integrated.macOptionClickForcesSelection": true,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
 }
