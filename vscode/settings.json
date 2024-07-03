@@ -58,5 +58,6 @@
     "autoDocstring.customTemplatePath": "/home/julieta/.vscode/extensions/njpwerner.autodocstring-0.3.0/out/docstring/templates/sphinx_custom.mustache",
     "latex-workshop.view.pdf.viewer": "tab",
     "workbench.iconTheme": "vscode-icons",
-    "latex-workshop.view.pdf.ref.viewer": "tabOrBrowser"
+    "latex-workshop.view.pdf.ref.viewer": "tabOrBrowser",
+    "terminal.integrated.fontFamily": "MesloLGS NF"
 }
